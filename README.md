@@ -16,3 +16,5 @@ Label + Button + Groupbox with Radio Buttons.
 * The Radio buttons are used to select themes (white / black)
 
 ![Hello_World_2.png](https://s3.amazonaws.com/martinzhu/image/Hello_World_2.png)
+
+![Hello_World_3.png](https://s3.amazonaws.com/martinzhu/image/Hello_World_3.png)
