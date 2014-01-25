@@ -33,5 +33,28 @@ namespace Example
             }
             
         }
+
+        private void radioButton_CheckedChanged(object sender, EventArgs e)
+        {
+
+            if (radioButton1.Checked)
+            {
+                this.BackColor = System.Drawing.Color.White;
+                this.label1.ForeColor = System.Drawing.Color.Black;
+                this.button1.BackColor = System.Drawing.Color.Black;
+                this.button1.ForeColor = System.Drawing.Color.White;
+                this.groupBox1.ForeColor = System.Drawing.Color.Black;
+            }
+
+            if (radioButton2.Checked)
+            {
+                this.BackColor = System.Drawing.Color.Black;
+                this.label1.ForeColor = System.Drawing.Color.White;
+                this.button1.BackColor = System.Drawing.Color.White;
+                this.button1.ForeColor = System.Drawing.Color.Black;
+                this.groupBox1.ForeColor = System.Drawing.Color.White;
+            }
+        }
+
     }
 }
